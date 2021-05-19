@@ -10,7 +10,7 @@ on:
 
 jobs:
   docker_build_and_publish:
-    runs-on: [Arm]
+    runs-on: ubuntu-latest
     steps:
       - name: Login to GitHub Container Registry
         uses: docker/login-action@v1
