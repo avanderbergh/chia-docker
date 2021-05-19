@@ -52,4 +52,4 @@ jobs:
           push: true
           build-args: |
             "BRANCH=${{ github.event.inputs.upstream_branch }}"
-          tags: ghcr.io/chia-network/chia:${{ github.event.inputs.image_tag }}
+          tags: ghcr.io/avanderbergh/chia:${{ github.event.inputs.image_tag }}
