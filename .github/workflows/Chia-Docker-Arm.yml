@@ -4,10 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       upstream_branch:
-        description: 'chia branch name to use'
+        description: "chia branch name to use"
         required: true
-        default: 'master'
-
+        default: "master"
 
 jobs:
   docker_build_and_publish:
